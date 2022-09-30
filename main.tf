@@ -1,8 +1,5 @@
 provider "aws" {
 region = var.myregion
-access_key= var.myaccesskey
-secret_key= var.mysecretkey
-
 }
 
 resource "aws_s3_bucket" "mybucket1" {
